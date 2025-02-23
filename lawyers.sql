@@ -1,4 +1,4 @@
-WITH lawyer_pairs AS (
+WITH lawyer_pairs AS(
     SELECT 
         a1.lawyer_id AS lawyer1_id,
         a2.lawyer_id AS lawyer2_id,
